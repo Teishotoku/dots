@@ -39,10 +39,11 @@ alias vws='nvim ~/.config/waybar/style.css'
 alias vw='nvim ~/.config/waybar/config.jsonc'
 #alias-other------------
 alias SD='shutdown -h now'
-alias LS='live-server Code/'
+alias LS='live-server Code/sites/'
 #utils------------------
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 #cd---------------------
+alias cdf='cd ~/.config/'
 alias cdc='cd ~/Code/'
 alias cdcs='cd ~/Code/sites/'
