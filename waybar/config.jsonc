@@ -1,0 +1,84 @@
+{
+    "layer": "top", 
+    "position": "top",
+    "height": 1,
+
+	"output": ["DP-1", "HDMI-A-1"],
+  "spacing": 0,
+	"margin-left": 0,
+
+    
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "memory", "hyprland/language", "pulseaudio"],
+
+"hyprland/workspaces": {
+     "on-click": "close",
+     "all-outputs": false,
+	   "sort-by-number": true,
+	   "active-only": false,
+     "show-special": true,
+     "format": "{icon}",
+     "format-icons": {
+             "1": "",
+             "2": "",
+             "3": "",
+             "4": "",
+             "5": "󰈙",
+             "6": "",
+             "7": "",
+             "8": "",
+             "9": "",
+             "10": "",
+             "urgent": "",
+             "special": "󰌋"
+         },
+     "persistent_workspaces": {
+            "DP-1": [ 1, 2, 3, 4, 5 ], 
+            "HDMI-A-1": [ 6, 7, 8, 9, 10 ] 
+        }
+    },
+    
+"tray": {
+        "spacing": 10,
+        "icon-size": 15
+    },
+
+"clock": {
+        "format": "{:  %A | %H:%M:%S | %e %B }",
+        "format-alt": "{:%H:%M}",
+		"interval": 1
+    },
+    
+
+"hyprland/window": {
+    "format": "{}",
+    "separate-outputs": false,
+    "max-length": 20
+},
+
+  "hyprland/language": {
+    "format": "󰌌 {}",
+    "format-en": "US",
+    "format-ru": "RU",
+    "interval": 1
+  },
+
+  "pulseaudio": {
+    "format": "󰖀 {volume}%",
+    "format-bluetooth": " {volume}%",
+    "format-icons": {
+      "hands-free":" ",
+      "headphone":" ",
+      "headset":" "
+    },
+    "format-muted": "󰝟 muted",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "scroll-step": 5
+  },
+
+    "memory": {
+        "format": " {}%"
+    }
+
+}

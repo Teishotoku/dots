@@ -1,0 +1,133 @@
+* {
+    /* WAYBAR-CSS CONFIG */
+    font-family:  JetBrainsMono NF;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 17, 0.75);
+    transition-property: background-color;
+    transition-duration: .5s;
+    padding: 5;
+    margin: 5;
+}
+
+window#waybar.nvim {
+    color: #fab387;
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces {
+    margin-right: 15;
+	  border-radius: 0 16 16 0;
+	  background-color: #1e1e2e;
+}
+
+#workspaces button {
+    padding: 0 5;
+    margin: 2;
+    color: #f38ba8;
+    border-radius: 16;
+}
+
+#workspaces button.empty {
+  color: #7f849c;
+}
+
+#workspaces button.active {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #11111b;
+    background: radial-gradient(#fab387 50%, #f38ba8 100%);
+    background-size: 400% 400%;
+    transition: all 0.25s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+}
+
+#workspaces button.urgent {
+    background-color: #fab387;
+	  color: #11111b;
+}
+
+#workspaces button.special {
+  color: #1e1e2e;
+  background: radial-gradient(#fab387 50%, #74c7ec 100%);
+  margin-left: 15px;
+  background-size: 300% 300%;
+  padding-right: 10px;
+  padding-left: 10px;
+  transition: 0.5s;
+}
+#workspaces button:hover {
+  color: #cdd6f4;
+}
+
+#clock,
+#memory,
+#pulseaudio,
+#mpd {
+    padding: 0 10px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+	color: #000000;
+	border-radius: 16;
+	background-image: radial-gradient(circle, #cba6f7 50%, #74c7ec);
+  background-size: 400% 400%;
+}
+
+#clock.calendar {
+  background-color: #fab387;
+}
+
+#memory {
+    background-color: #1e1e2e;
+    color: #a6e3a1;
+	  border-radius: 16px 0px 0px 16px;
+}
+
+#pulseaudio {
+    background-color: #1e1e2e;
+    color: #a6e3a1;
+}
+
+#pulseaudio.muted {
+    background-color: #1e1e2e;
+    color: #f38ba8;
+}
+
+#tray{
+    padding-right: 12px;
+}
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #eb4d4b;
+}
+
+#language {
+  background-color: #1e1e2e;
+    color: #a6e3a1;
+    padding: 0 5px;
+    margin: 0px;
+    min-width: 16px;
+}
