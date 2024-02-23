@@ -1,4 +1,4 @@
-# <div style='text-align: center;'> **My desktop hyprland setup** </div>
+<h1 align:"center">**My desktop hyprland setup**</h1>
 ![Header](https://github.com/Teishotoku/dots/blob/main/desktop.png)
 
 ## SOFT
