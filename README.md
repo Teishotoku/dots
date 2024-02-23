@@ -1,7 +1,7 @@
 # <h1 align="center"> **My desktop hyprland setup** </h1>
 ![Header](https://github.com/Teishotoku/dots/blob/main/desktop.png)
 
-## SOFT
+## <h1 align="center">SOFT</h1>
 + **hyprland** - compositor wm
 + **waybar**   - bar
 + **kitty**    - terminal emulator
