@@ -12,11 +12,11 @@
 
 ## <h1 align="center">pacman packages</h1>
 ```
-pacman -S hyprland waybar xdg-desktop-hyprland kitty firefox pipewire thunar lf neovim neofetch openrgb zsh mangohud btop telegram-desktop steam keepassxc unzip papirus-icon-theme thunar-archive-plugin polkit-gnome ttf-jetbrains-mono ttf-jetbrains-mono-nerd imv mpv
+pacman -S wayland hyprland waybar xdg-desktop-hyprland dhcpcd kitty firefox pipewire thunar lf neovim neofetch openrgb zsh mangohud btop telegram-desktop steam keepassxc unzip papirus-icon-theme thunar-archive-plugin polkit-gnome ttf-jetbrains-mono ttf-jetbrains-mono-nerd imv mpv pavucontrol wl-clipboard cliphist 
 ```
 ## <h1 align="center">aur packages</h1>
 ```
-yay -S rofi-lbonn-wayland-git webcord swww catppuccin-gtk-theme-mocha catppuccin-cursors-mocha ctpv 
+yay -S rofi-lbonn-wayland-git webcord swww catppuccin-gtk-theme-mocha catppuccin-cursors-mocha ctpv hyprpicker
 ```
 
 
