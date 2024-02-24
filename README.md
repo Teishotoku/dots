@@ -12,7 +12,7 @@
 
 ## <h1 align="center">pacman packages</h1>
 ```
-pacman -S hyprland waybar xdg-desktop-hyprland kitty firefox pipewire thunar lf neofetch openrgb zsh mangohud btop telegram-desktop steam keepassxc unzip papirus-icon-theme thunar-archive-plugin polkit-gnome ttf-jetbrains-mono ttf-jetbrains-mono-nerd
+pacman -S hyprland waybar xdg-desktop-hyprland kitty firefox pipewire thunar lf neovim neofetch openrgb zsh mangohud btop telegram-desktop steam keepassxc unzip papirus-icon-theme thunar-archive-plugin polkit-gnome ttf-jetbrains-mono ttf-jetbrains-mono-nerd imv mpv
 ```
 ## <h1 align="center">aur packages</h1>
 ```
