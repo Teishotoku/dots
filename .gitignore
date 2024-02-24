@@ -1,0 +1,64 @@
+/.zsh
+/Code - OSS
+/Electron
+/FreeTube
+/OpenRGB/logs/
+/Soundux
+/alacritty
+/foot
+/cava/shaders
+/cef_user_data
+/cmus
+/ctpv
+/dconf
+/eww
+/galculator
+/gtk-2.0
+/gtk-3.0/bookmarks
+/htop
+/keepassxc
+/menus
+/mimeapps.list
+/nvim
+/libreoffice
+/nwg-look
+/obs-studio
+/pulse
+/qt5ct
+/qt6ct
+/torbrowser
+/unity3d
+/xfce4
+/xsettingsd
+/WebCord/Cache
+/WebCord/Cache
+/WebCord/Code Cache
+/WebCord/Cookies
+/WebCord/Cookies-journal
+/WebCord/Crashpad
+/WebCord/DawnCache
+/WebCord/Dictionaries
+/WebCord/GPUCache
+/WebCord/Local Storage
+/WebCord/Network Persistent State
+/WebCord/Preferences
+/WebCord/Session Storage
+/WebCord/Shared Dictionary
+/WebCord/SharedStorage
+/WebCord/TransportSecurity
+/WebCord/Trust Tokens
+/WebCord/Trust Tokens-journal
+/WebCord/VideoDecodeStats
+/WebCord/WebStorage/
+/WebCord/WebrtcVideoStats/
+/WebCord/config.json
+/WebCord/databases/
+/WebCord/shared_proto_db/
+/WebCord/windowState.json
+zoom.conf
+zoomus.conf
+user-dirs.dirs
+user-dirs.locale
+pavucontrol.ini
+QtProject.conf
+
