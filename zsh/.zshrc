@@ -22,11 +22,6 @@ bindkey ^R history-incremental-search-backward
 bindkey jk vi-cmd-mode
 bindkey '^H' backward-kill-word
 
-export LANG="ru_RU.UTF-8"
-export LANGUAGE="ru_RU.UTF-8"
-export LC_COLLATE="ru_RU.UTF-8"
-export LC_CTYPE="ru_RU.UTF-8"
-export LC_ALL="ru_RU.UTF-8"
 export OPENER='rifle' 
 #THEMES
 #PROMPT='%F{050}%n%f %F{010}%~%f 󰣇  '
