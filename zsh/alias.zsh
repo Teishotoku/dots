@@ -4,7 +4,7 @@ alias s=sudo
 alias sv='sudo nvim'
 alias n=neofetch
 alias c=clear
-alias h=btop
+alias T=btop
 alias e=exit
 alias hc=hyprctl
 #alias-pacman-----------
