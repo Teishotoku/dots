@@ -14,10 +14,6 @@ window#waybar {
     margin: 5;
 }
 
-window#waybar.nvim {
-    color: #fab387;
-}
-
 button {
     box-shadow: inset 0 -3px transparent;
     border: none;
@@ -26,8 +22,10 @@ button {
 
 #workspaces {
     margin-right: 15;
-	  border-radius: 0 16 16 0;
+    padding-right: 5;
+	  border-radius: 0 8 8 0;
 	  background-color: #1e1e2e;
+    border-right: 4px solid #f38ba8;
 }
 
 #workspaces button {
@@ -87,7 +85,7 @@ button {
 
 #clock {
 	color: #000000;
-	border-radius: 16;
+	border-radius: 4 16 4 16;
 	background-image: radial-gradient(circle, #cba6f7 50%, #74c7ec);
   background-size: 400% 400%;
 }
@@ -99,7 +97,8 @@ button {
 #memory {
     background-color: #1e1e2e;
     color: #a6e3a1;
-	  border-radius: 16px 0px 0px 16px;
+	  border-radius: 8px 0px 0px 8px;
+    border-left: 4px solid #a6e3a1;
 }
 
 #pulseaudio {
