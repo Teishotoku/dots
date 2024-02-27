@@ -43,7 +43,7 @@ button {
     padding-right: 15px;
     padding-left: 15px;
     color: #11111b;
-    background: radial-gradient(#fab387 50%, #f38ba8 100%);
+    background: radial-gradient(#74c7ec 50%, #f38ba8 100%);
     background-size: 400% 400%;
     transition: all 0.25s cubic-bezier(0.79, 0.33, 0.14, 0.53);
 }
@@ -85,9 +85,10 @@ button {
 
 #clock {
 	color: #000000;
-	border-radius: 4 16 4 16;
-	background-image: radial-gradient(circle, #cba6f7 50%, #74c7ec);
+	border-radius: 4 20;
+	background-image: radial-gradient(circle, #cba6f7 50%, #fab387);
   background-size: 400% 400%;
+  padding: 0 15;
 }
 
 #clock.calendar {

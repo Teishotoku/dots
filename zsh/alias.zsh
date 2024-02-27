@@ -2,7 +2,7 @@
 alias v=nvim
 alias s=sudo
 alias sv='sudo nvim'
-alias n=neofetch
+alias f=fastfetch
 alias c=clear
 alias T=btop
 alias e=exit
@@ -31,7 +31,7 @@ alias Gp='git push origin main'
 #alias-neovim-----------
 alias vz='nvim ~/.config/zsh/.zshrc'
 alias va='nvim ~/.config/zsh/alias.zsh'
-alias vn='nvim ~/.config/neofetch/config.conf'
+alias vf='nvim ~/.config/fastfetch/config.conf'
 alias vh='nvim ~/.config/hypr/hyprland.conf'
 alias vhb='nvim ~/.config/hypr/binds.conf'
 alias vk='nvim ~/.config/kitty/kitty.conf'
