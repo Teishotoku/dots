@@ -1,5 +1,6 @@
 # <h1 align="center"> **My desktop hyprland setup** </h1>
-![Header](https://github.com/Teishotoku/dots/blob/main/desktop.png)
+![Desktop](https://github.com/Teishotoku/dots/blob/main/.github/img/desktop.png)
+![Applications](https://github.com/Teishotoku/dots/blob/main/.github/img/applications.png)
 
 ## <h1 align="center">SOFT</h1>
 + **hyprland** - compositor wm
