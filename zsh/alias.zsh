@@ -7,6 +7,7 @@ alias c=clear
 alias T=btop
 alias e=exit
 alias hc=hyprctl
+alias SS=sensors
 #alias-pacman-----------
 alias P='sudo pacman -S'
 alias Ps='sudo pacman -Syu && yay -Syu'
@@ -26,6 +27,7 @@ alias Go='git fetch'
 alias Gk='git checkout'
 alias Gr='git remote'
 alias Gc='git commit -m'
+alias Gac='git commit -am'
 alias Gbd='git branch -D'
 alias Gp='git push origin main'
 #alias-neovim-----------
@@ -39,10 +41,14 @@ alias vl='nvim ~/.config/lf/lfrc'
 alias vc='nvim ~/Code/welcome.txt'
 alias vws='nvim ~/.config/waybar/style.css'
 alias vw='nvim ~/.config/waybar/config.jsonc'
+#systemd----------------
+alias sc='systemctl'
+alias sc-e='systemctl enable'
+alias sc-d='systemctl disable'
 #alias-other------------
-alias SD='shutdown -h now'
+alias sd='shutdown -h now'
 alias LS='live-server Code/sites/'
-#utils------------------
+#colors-----------------
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 #cd---------------------

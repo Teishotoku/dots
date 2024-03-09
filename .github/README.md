@@ -18,7 +18,7 @@ pacman -S wayland hyprland waybar xdg-desktop-portal-hyprland dhcpcd kitty firef
 ```
 ## <h1 align="center">aur packages</h1>
 ```
-yay -S rofi-lbonn-wayland-git webcord swww catppuccin-gtk-theme-mocha catppuccin-cursors-mocha ctpv hyprpicker hyprlock
+yay -S rofi-lbonn-wayland-git webcord swww catppuccin-gtk-theme-mocha catppuccin-cursors-mocha papirus-folders-catppuccin-git ctpv hyprpicker gtklock-git
 ```
 
 

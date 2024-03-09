@@ -67,6 +67,8 @@
   "pulseaudio": {
     "format": "󰖀 {volume}%",
     "format-bluetooth": " {volume}%",
+    "format-source": "Mic ON",
+    "format-source-muted": "Mic OFF",
     "format-icons": {
       "hands-free":" ",
       "headphone":" ",
