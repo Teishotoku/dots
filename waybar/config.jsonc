@@ -45,7 +45,7 @@
     },
 
 "clock": {
-        "format": "{:  %A | %H:%M:%S | %e %B }",
+        "format": "{:%A  | %H:%M:%S | %e %B }",
         "format-alt": "{:%H:%M}",
 		"interval": 1
     },
