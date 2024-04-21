@@ -48,6 +48,7 @@ alias sc-d='systemctl disable'
 #alias-other------------
 alias sd='shutdown -h now'
 alias LS='live-server Code/sites/'
+alias NS='npm start'
 #colors-----------------
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
